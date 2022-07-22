@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>DESAFIO 2 - JAVASCRIPT</h1>
+    <!-- EJERCICIO 1 -->
+    <div class="ej1">
+        <img id="anya1" src="assets/img/anya1.png" alt="" onclick="cambiaBorde()" >
+        <img id="anya2" src="assets/img/anya2.png" alt="" onclick="cambiarBorde()" >
+    </div>
+
+    <!-- EJERCICIO 2 -->
+    <h3>Puedes llevar maximo 10 stickers</h3>
+    <div class="container">
+        <div class="card">
+            <img src="assets/img/sticker1.jpg" alt=""> 
+            <input id="cant1" type="text" placeholder="Ingresa cantidad">
+        </div>
+
+        <div class="card">
+            <img src="assets/img/sticker2.png" alt="">
+            <input id="cant2" type="text" placeholder="Ingresa cantidad">
+        </div>
+            
+        <div class="card">
+            <img src="assets/img/sticker3.png" alt="">
+            <input id="cant3" type="text" placeholder="Ingresa cantidad">
+        </div>
+        
+    </div>
+    <div class="btn">
+        <button id="btn-1" onclick="stickers()">Total</button>
+        <p class="pTotal" id="resultado"></p>
+    </div>
+    
+    <!-- EJERCICIO 3 -->
+    <div class="main-container">
+        <h2>PASSWORD</h2>
+        <h4>Elije la combinación correcta</h4>
+        <div class="container">
+            <div class="card">
+                <select name="s1" id="s1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div class="card">
+                <select name="s2" id="s2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div class="card">
+                <select name="s3" id="s3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="btn">
+        <button id="btn-2" onclick="password()">¿Adivinaste?</button>
+        <p class="pTotal" id="guess"></p>
+    </div>
+    <script src="js/leScript.js"></script>
+</body>
+</html>

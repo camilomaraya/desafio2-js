@@ -1,0 +1,52 @@
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.ej1{
+    text-align: center;
+}
+
+#anya1{
+    width: 400px;
+    height: 300px;
+}
+
+#anya2{
+    width: 400px;
+    height: 300px;
+    display: none;
+}
+
+h3{
+    padding-top: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.btn{
+    padding: 30px;
+    text-align: center;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
